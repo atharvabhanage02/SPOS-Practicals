@@ -20,7 +20,7 @@ perror("execve failed ");
 		perror("wait");
 		_exit(1);
 	}
-	pid = getpid();
+	id = getpid();
 	printf("Parent id is %d \n",id);
 	printf("parent: finished \n");
 }else{
